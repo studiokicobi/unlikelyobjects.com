@@ -13,7 +13,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/.gitignore",
+		"oAP": "/uo-custom/.gitignore",
 		"oF": 0
 		},
 	"/editor-style-shared.css": {
@@ -22,7 +22,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/editor-style-shared-min.css",
+		"oAP": "/uo-custom/editor-style-shared-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -32,7 +32,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/editor-style-min.css",
+		"oAP": "/uo-custom/editor-style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -40,35 +40,35 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/375537_0_0.eot",
+		"oAP": "/uo-custom/fonts/375537_0_0.eot",
 		"oF": 0
 		},
 	"/fonts/375537_0_0.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/375537_0_0.ttf",
+		"oAP": "/uo-custom/fonts/375537_0_0.ttf",
 		"oF": 0
 		},
 	"/fonts/375537_0_0.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/375537_0_0.woff",
+		"oAP": "/uo-custom/fonts/375537_0_0.woff",
 		"oF": 0
 		},
 	"/fonts/375537_0_0.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/375537_0_0.woff2",
+		"oAP": "/uo-custom/fonts/375537_0_0.woff2",
 		"oF": 0
 		},
 	"/fonts/sourceserifpro-it-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/fonts/sourceserifpro-it-webfont.svg",
+		"oAP": "/uo-custom/fonts/sourceserifpro-it-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -78,28 +78,28 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/sourceserifpro-it-webfont.ttf",
+		"oAP": "/uo-custom/fonts/sourceserifpro-it-webfont.ttf",
 		"oF": 0
 		},
 	"/fonts/sourceserifpro-it-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/sourceserifpro-it-webfont.woff",
+		"oAP": "/uo-custom/fonts/sourceserifpro-it-webfont.woff",
 		"oF": 0
 		},
 	"/fonts/sourceserifpro-it-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/sourceserifpro-it-webfont.woff2",
+		"oAP": "/uo-custom/fonts/sourceserifpro-it-webfont.woff2",
 		"oF": 0
 		},
 	"/fonts/sourceserifpro-light-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/fonts/sourceserifpro-light-webfont.svg",
+		"oAP": "/uo-custom/fonts/sourceserifpro-light-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -109,28 +109,28 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/sourceserifpro-light-webfont.ttf",
+		"oAP": "/uo-custom/fonts/sourceserifpro-light-webfont.ttf",
 		"oF": 0
 		},
 	"/fonts/sourceserifpro-light-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/sourceserifpro-light-webfont.woff",
+		"oAP": "/uo-custom/fonts/sourceserifpro-light-webfont.woff",
 		"oF": 0
 		},
 	"/fonts/sourceserifpro-light-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/sourceserifpro-light-webfont.woff2",
+		"oAP": "/uo-custom/fonts/sourceserifpro-light-webfont.woff2",
 		"oF": 0
 		},
 	"/fonts/sourceserifpro-regular-webfont.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/fonts/sourceserifpro-regular-webfont.svg",
+		"oAP": "/uo-custom/fonts/sourceserifpro-regular-webfont.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -140,50 +140,50 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/sourceserifpro-regular-webfont.ttf",
+		"oAP": "/uo-custom/fonts/sourceserifpro-regular-webfont.ttf",
 		"oF": 0
 		},
 	"/fonts/sourceserifpro-regular-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/sourceserifpro-regular-webfont.woff",
+		"oAP": "/uo-custom/fonts/sourceserifpro-regular-webfont.woff",
 		"oF": 0
 		},
 	"/fonts/sourceserifpro-regular-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/fonts/sourceserifpro-regular-webfont.woff2",
+		"oAP": "/uo-custom/fonts/sourceserifpro-regular-webfont.woff2",
 		"oF": 0
 		},
 	"/front-page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/front-page.php",
+		"oAP": "/uo-custom/front-page.php",
 		"oF": 0
 		},
 	"/functions.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/functions.php",
+		"oAP": "/uo-custom/functions.php",
 		"oF": 0
 		},
 	"/images/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/images/favicon.ico",
+		"oAP": "/uo-custom/images/favicon.ico",
 		"oF": 0
 		},
-	"/js/jquery.matchHeight.min.js": {
+	"/js/jquery.matchHeight.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/jquery.matchHeight.min-min.js",
+		"oAP": "/uo-custom/js/jquery.matchHeight-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -193,27 +193,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/responsive-menus-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/responsive-menus.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/responsive-menus.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/uo-custom-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/uo-custom-min-min.js",
+		"oAP": "/uo-custom/js/responsive-menus-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -223,7 +203,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/uo-custom-min.js",
+		"oAP": "/uo-custom/js/uo-custom-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -232,36 +212,36 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/lib/customize.php",
+		"oAP": "/uo-custom/lib/customize.php",
 		"oF": 0
 		},
 	"/lib/helper-functions.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/lib/helper-functions.php",
+		"oAP": "/uo-custom/lib/helper-functions.php",
 		"oF": 0
 		},
 	"/lib/output.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/lib/output.php",
+		"oAP": "/uo-custom/lib/output.php",
 		"oF": 0
 		},
 	"/lib/theme-defaults.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/lib/theme-defaults.php",
+		"oAP": "/uo-custom/lib/theme-defaults.php",
 		"oF": 0
 		},
 	"/lib/woocommerce/js/notice-update-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "/lib/woocommerce/js/notice-update-min-min.js",
+		"oA": 1,
+		"oAP": "/uo-custom/lib/woocommerce/js/notice-update-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -271,7 +251,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/lib/woocommerce/js/notice-update-min.js",
+		"oAP": "/uo-custom/lib/woocommerce/js/notice-update-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -281,8 +261,8 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/lib/woocommerce/uo-custom-woocommerce-min-min.css",
+		"oA": 1,
+		"oAP": "/uo-custom/lib/woocommerce/uo-custom-woocommerce-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -292,7 +272,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/lib/woocommerce/uo-custom-woocommerce-min.css",
+		"oAP": "/uo-custom/lib/woocommerce/uo-custom-woocommerce-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -300,35 +280,35 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/lib/woocommerce/woocommerce-notice.php",
+		"oAP": "/uo-custom/lib/woocommerce/woocommerce-notice.php",
 		"oF": 0
 		},
 	"/lib/woocommerce/woocommerce-output.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/lib/woocommerce/woocommerce-output.php",
+		"oAP": "/uo-custom/lib/woocommerce/woocommerce-output.php",
 		"oF": 0
 		},
 	"/lib/woocommerce/woocommerce-setup.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/lib/woocommerce/woocommerce-setup.php",
+		"oAP": "/uo-custom/lib/woocommerce/woocommerce-setup.php",
 		"oF": 0
 		},
 	"/page_landing.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/page_landing.php",
+		"oAP": "/uo-custom/page_landing.php",
 		"oF": 0
 		},
 	"/page_project.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/page_project.php",
+		"oAP": "/uo-custom/page_project.php",
 		"oF": 0
 		},
 	"/README.md": {
@@ -340,7 +320,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "/README.html",
+		"oAP": "/uo-custom/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -353,22 +333,12 @@
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "/screenshot.png",
+		"oAP": "/uo-custom/screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
-		},
-	"/style-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/style-min-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/style.css": {
 		"aP": 1,
@@ -376,15 +346,21 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/style-min.css",
+		"oAP": "/uo-custom/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/uo-custom": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/uo-custom/uo-custom",
+		"oF": 0
 		},
 	"/xml/sample.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/xml/sample.xml",
+		"oAP": "/uo-custom/xml/sample.xml",
 		"oF": 0
 		}
 	},
@@ -395,9 +371,10 @@
 "projectAttributes": {
 	"creationDate": 569760994.94427395,
 	"displayValue": "unlikelyobjects.com",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_teal",
-	"iconImageWasSetByUser": 1
+	"iconImageWasSetByUser": 1,
+	"lastBuiltDate": 569767326.11470401
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -639,8 +616,8 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
-	"buildFolderActive": 0,
-	"buildFolderName": "build",
+	"buildFolderActive": 1,
+	"buildFolderName": "uo-custom",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -2677,7 +2654,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$,exports,require",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "/uo-custom"
 	},
 "settingsFileVersion": "3"
 }
