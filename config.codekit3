@@ -185,12 +185,12 @@
 		"oAP": "/uo-custom/images/favicon.ico",
 		"oF": 0
 		},
-	"/js/jquery.matchHeight.min.js": {
+	"/js/jquery.matchHeight.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/uo-custom/js/jquery.matchHeight.min-min.js",
+		"oAP": "/uo-custom/js/jquery.matchHeight-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -201,16 +201,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/uo-custom/js/responsive-menus-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/responsive-menus.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/uo-custom/js/responsive-menus.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -294,6 +284,13 @@
 		"oAP": "/uo-custom/lib/woocommerce/woocommerce-output.php",
 		"oF": 0
 		},
+	"/lib/woocommerce/woocommerce-setup.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/uo-custom/lib/woocommerce/woocommerce-setup.php",
+		"oF": 0
+		},
 	"/page_landing.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -352,6 +349,13 @@
 		"oA": 1,
 		"oAP": "/uo-custom/uo-custom",
 		"oF": 0
+		},
+	"/xml/sample.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/uo-custom/xml/sample.xml",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -364,7 +368,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 569770577.37509894
+	"lastBuiltDate": 569770883.42011297
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
