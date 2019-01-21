@@ -1,2 +1,2 @@
 # unlikelyobjects.com
-WordPress theme for unlikelyobjects.com
+Genesis child theme for unlikelyobjects.com
