@@ -6,10 +6,13 @@ require_once get_template_directory() . '/lib/init.php';
 // Sets up the Theme.
 require_once get_stylesheet_directory() . '/lib/theme-defaults.php';
 
-add_action( 'after_setup_theme', 'uo-custom_localization_setup' );
-
-// Sets localization.
-function uo-custom_localization_setup() {
+add_action( 'after_setup_theme', 'genesis_sample_localization_setup' );
+/**
+ * Sets localization (do not remove).
+ *
+ * @since 1.0.0
+ */
+function genesis_sample_localization_setup() {
 
 	load_child_theme_textdomain( 'uo-custom', get_stylesheet_directory() . '/languages' );
 
@@ -38,13 +41,13 @@ define( 'CHILD_THEME_NAME', 'uo-custom' );
 define( 'CHILD_THEME_URL', 'https://unlikelyobjects.com/' );
 define( 'CHILD_THEME_VERSION', '1.0.0' );
 
-add_action( 'wp_enqueue_scripts', 'uo-custom_enqueue_scripts_styles' );
+add_action( 'wp_enqueue_scripts', 'genesis_sample_enqueue_scripts_styles' );
 /**
  * Enqueues scripts and styles.
  *
  * @since 1.0.0
  */
-function uo-custom_enqueue_scripts_styles() {
+function genesis_sample_enqueue_scripts_styles() {
 
 // 	wp_enqueue_style(
 // 		'uo-custom-fonts',
@@ -53,15 +56,15 @@ function uo-custom_enqueue_scripts_styles() {
 // 		CHILD_THEME_VERSION
 // 	);
 
-
+	
 	wp_enqueue_style(
 		'uo-custom-fonts',
 		'//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css',
 		array(),
 		CHILD_THEME_VERSION
-	);
-
-
+	);	
+	
+	
 	wp_enqueue_style( 'dashicons' );
 
 	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
@@ -75,7 +78,7 @@ function uo-custom_enqueue_scripts_styles() {
 	wp_localize_script(
 		'uo-custom-responsive-menu',
 		'genesis_responsive_menu',
-		uo-custom_responsive_menu_settings()
+		genesis_sample_responsive_menu_settings()
 	);
 
 	wp_enqueue_script(
@@ -93,7 +96,7 @@ function uo-custom_enqueue_scripts_styles() {
  *
  * @since 2.3.0
  */
-function uo-custom_responsive_menu_settings() {
+function genesis_sample_responsive_menu_settings() {
 
 	$settings = array(
 		'mainMenu'         => __( 'Menu', 'uo-custom' ),
@@ -184,7 +187,7 @@ genesis_unregister_layout( 'sidebar-sidebar-content' );
 remove_filter( 'genesis_nav_items', 'genesis_nav_right', 10, 2 );
 remove_filter( 'wp_nav_menu_items', 'genesis_nav_right', 10, 2 );
 
-add_action( 'genesis_theme_settings_metaboxes', 'uo-custom_remove_metaboxes' );
+add_action( 'genesis_theme_settings_metaboxes', 'genesis_sample_remove_metaboxes' );
 /**
  * Removes output of unused admin settings metaboxes.
  *
@@ -192,14 +195,14 @@ add_action( 'genesis_theme_settings_metaboxes', 'uo-custom_remove_metaboxes' );
  *
  * @param string $_genesis_admin_settings The admin screen to remove meta boxes from.
  */
-function uo-custom_remove_metaboxes( $_genesis_admin_settings ) {
+function genesis_sample_remove_metaboxes( $_genesis_admin_settings ) {
 
 	remove_meta_box( 'genesis-theme-settings-header', $_genesis_admin_settings, 'main' );
 	remove_meta_box( 'genesis-theme-settings-nav', $_genesis_admin_settings, 'main' );
 
 }
 
-add_filter( 'genesis_customizer_theme_settings_config', 'uo-custom_remove_customizer_settings' );
+add_filter( 'genesis_customizer_theme_settings_config', 'genesis_sample_remove_customizer_settings' );
 /**
  * Removes output of header settings in the Customizer.
  *
@@ -208,7 +211,7 @@ add_filter( 'genesis_customizer_theme_settings_config', 'uo-custom_remove_custom
  * @param array $config Original Customizer items.
  * @return array Filtered Customizer items.
  */
-function uo-custom_remove_customizer_settings( $config ) {
+function genesis_sample_remove_customizer_settings( $config ) {
 
 	unset( $config['genesis']['sections']['genesis_header'] );
 	return $config;
@@ -226,7 +229,7 @@ add_action( 'genesis_header', 'genesis_do_nav', 12 );
 remove_action( 'genesis_after_header', 'genesis_do_subnav' );
 add_action( 'genesis_footer', 'genesis_do_subnav', 10 );
 
-add_filter( 'wp_nav_menu_args', 'uo-custom_secondary_menu_args' );
+add_filter( 'wp_nav_menu_args', 'genesis_sample_secondary_menu_args' );
 /**
  * Reduces secondary navigation menu to one level depth.
  *
@@ -235,7 +238,7 @@ add_filter( 'wp_nav_menu_args', 'uo-custom_secondary_menu_args' );
  * @param array $args Original menu options.
  * @return array Menu options with depth set to 1.
  */
-function uo-custom_secondary_menu_args( $args ) {
+function genesis_sample_secondary_menu_args( $args ) {
 
 	if ( 'secondary' !== $args['theme_location'] ) {
 		return $args;
@@ -246,7 +249,7 @@ function uo-custom_secondary_menu_args( $args ) {
 
 }
 
-add_filter( 'genesis_author_box_gravatar_size', 'uo-custom_author_box_gravatar' );
+add_filter( 'genesis_author_box_gravatar_size', 'genesis_sample_author_box_gravatar' );
 /**
  * Modifies size of the Gravatar in the author box.
  *
@@ -255,13 +258,13 @@ add_filter( 'genesis_author_box_gravatar_size', 'uo-custom_author_box_gravatar' 
  * @param int $size Original icon size.
  * @return int Modified icon size.
  */
-function uo-custom_author_box_gravatar( $size ) {
+function genesis_sample_author_box_gravatar( $size ) {
 
 	return 90;
 
 }
 
-add_filter( 'genesis_comment_list_args', 'uo-custom_comments_gravatar' );
+add_filter( 'genesis_comment_list_args', 'genesis_sample_comments_gravatar' );
 /**
  * Modifies size of the Gravatar in the entry comments.
  *
@@ -270,7 +273,7 @@ add_filter( 'genesis_comment_list_args', 'uo-custom_comments_gravatar' );
  * @param array $args Gravatar settings.
  * @return array Gravatar settings with modified size.
  */
-function uo-custom_comments_gravatar( $args ) {
+function genesis_sample_comments_gravatar( $args ) {
 
 	$args['avatar_size'] = 60;
 	return $args;
@@ -281,7 +284,7 @@ function uo-custom_comments_gravatar( $args ) {
 
 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-// Customisation below
+// Customisation below 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 
@@ -294,7 +297,7 @@ function ig_entry_meta_footer( $post_meta ) {
 
 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-// Page nav function
+// Page nav function 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 function getPrevNext(){
@@ -307,16 +310,16 @@ function getPrevNext(){
 	$current = array_search(get_the_ID(), $pages);
 	$prevID = $pages[$current-1];
 	$nextID = $pages[$current+1];
-
+	
 	echo '<div class="navigation">';
-
+	
 	if (!empty($prevID)) {
 		echo '<div class="alignleft prev-link prev-next-link">';
 		echo '<a class="sans" href="';
 		echo get_permalink($prevID);
 		echo '"';
 		echo 'title="';
-		echo get_the_title($prevID);
+		echo get_the_title($prevID); 
 		echo'">Previous project</a>';
 		echo "</div>";
 	}
@@ -326,13 +329,13 @@ function getPrevNext(){
 		echo get_permalink($nextID);
 		echo '"';
 		echo 'title="';
-		echo get_the_title($nextID);
+		echo get_the_title($nextID); 
 		echo'">Next project</a>';
-		echo "</div>";
+		echo "</div>";		
 	}
 }
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-// Remove the title from the home page
+// Remove the title from the home page 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 add_action('get_header', 'remove_page_titles');
 function remove_page_titles() {
@@ -351,7 +354,7 @@ remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
 remove_action( 'admin_print_styles', 'print_emoji_styles' );
 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-// Clear CSS Cache
+// Clear CSS Cache 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 add_filter( 'stylesheet_uri', 'child_stylesheet_uri' );
 /**
@@ -375,10 +378,10 @@ function leaguewp_custom_footer() { ?>
 	<div class="site-footer">
 		<div class="wrap">
 
-
+			
 			<?php
 			/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-			// Begin MailChimp Signup Form
+			// Begin MailChimp Signup Form 
 			/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 			?>
 			<div id="mc_embed_signup">
@@ -394,11 +397,11 @@ function leaguewp_custom_footer() { ?>
 			</div>
 			<?php
 			/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
-			// End MailChimp Signup Form
+			// End MailChimp Signup Form 
 			/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 			?>
 
-
+			
 			<div class="footer-social-icons">
 			    <ul class="social-icons">
 					<li><a href="https://twitter.com/unlikelyobjects" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
@@ -410,7 +413,7 @@ function leaguewp_custom_footer() { ?>
 			<p class="copyright sans">&copy; <?php echo date("Y"); ?> Unlikely Objects</p>
 			<!--  &middot; <a href='<?php echo esc_html( antispambot( 'mailto:hello@unlikelyobjects.com' ) ); ?>'><?php echo esc_html( antispambot( 'hello@unlikelyobjects.com' ) ); ?></a></p> -->
 
-
+			
 		</div>
 	</div>
 

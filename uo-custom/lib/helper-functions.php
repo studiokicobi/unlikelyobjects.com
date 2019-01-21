@@ -1,7 +1,13 @@
 <?php
 /**
- * Adds the required helper functions used in the UO-custom Theme.
+ * Genesis Sample.
  *
+ * This file adds the required helper functions used in the Genesis Sample Theme.
+ *
+ * @package Genesis Sample
+ * @author  StudioPress
+ * @license GPL-2.0+
+ * @link    https://www.studiopress.com/
  */
 
 /**
@@ -12,7 +18,7 @@
  *
  * @return string Hex color code for link color.
  */
-function uo-custom_customizer_get_default_link_color() {
+function genesis_sample_customizer_get_default_link_color() {
 
 	return '#0073e5';
 
@@ -26,7 +32,7 @@ function uo-custom_customizer_get_default_link_color() {
  *
  * @return string Hex color code for accent color.
  */
-function uo-custom_customizer_get_default_accent_color() {
+function genesis_sample_customizer_get_default_accent_color() {
 
 	return '#0073e5';
 
@@ -40,7 +46,7 @@ function uo-custom_customizer_get_default_accent_color() {
  * @param string $color A color in hex format.
  * @return string The hex code for the most contrasting color: dark grey or white.
  */
-function uo-custom_color_contrast( $color ) {
+function genesis_sample_color_contrast( $color ) {
 
 	$hexcolor = str_replace( '#', '', $color );
 	$red      = hexdec( substr( $hexcolor, 0, 2 ) );
@@ -63,7 +69,7 @@ function uo-custom_color_contrast( $color ) {
  * @param int    $change The amount to reduce or increase brightness by.
  * @return string Hex code for the adjusted color brightness.
  */
-function uo-custom_color_brightness( $color, $change ) {
+function genesis_sample_color_brightness( $color, $change ) {
 
 	$hexcolor = str_replace( '#', '', $color );
 
