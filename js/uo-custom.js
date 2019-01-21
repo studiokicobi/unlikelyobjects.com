@@ -1,3 +1,11 @@
+/**
+ * Genesis Sample entry point.
+ *
+ * @package GenesisSample\JS
+ * @author  StudioPress
+ * @license GPL-2.0+
+ */
+
 var genesisSample = ( function( $ ) {
 	'use strict';
 
@@ -17,7 +25,7 @@ var genesisSample = ( function( $ ) {
 	},
 
 	/**
-	 * Initialize UO-custom.
+	 * Initialize Genesis Sample.
 	 *
 	 * Internal functions to execute on document load can be called here.
 	 *
