@@ -22,9 +22,9 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/uo-custom/editor-style-shared-min.css",
+		"oAP": "/uo-custom/editor-style-shared.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"/editor-style.css": {
 		"aP": 1,
@@ -32,9 +32,16 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/uo-custom/editor-style-min.css",
+		"oAP": "/uo-custom/editor-style.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/uo-custom/favicon.ico",
+		"oF": 0
 		},
 	"/fonts/375537_0_0.eot": {
 		"cB": 0,
@@ -178,12 +185,12 @@
 		"oAP": "/uo-custom/images/favicon.ico",
 		"oF": 0
 		},
-	"/js/jquery.matchHeight.js": {
+	"/js/jquery.matchHeight.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/uo-custom/js/jquery.matchHeight-min.js",
+		"oAP": "/uo-custom/js/jquery.matchHeight.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -198,6 +205,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/js/responsive-menus.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/uo-custom/js/responsive-menus.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/js/uo-custom.js": {
 		"ft": 64,
 		"ma": 0,
@@ -207,6 +224,13 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"/languages/genesis-sample.pot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/uo-custom/languages/genesis-sample.pot",
+		"oF": 0
 		},
 	"/lib/customize.php": {
 		"cB": 0,
@@ -236,15 +260,15 @@
 		"oAP": "/uo-custom/lib/theme-defaults.php",
 		"oF": 0
 		},
-	"/lib/woocommerce/js/notice-update-min.js": {
-		"ft": 64,
+	"/lib/woocommerce/genesis-sample-woocommerce.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
 		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/uo-custom/lib/woocommerce/js/notice-update-min-min.js",
+		"oA": 0,
+		"oAP": "/uo-custom/lib/woocommerce/genesis-sample-woocommerce.css",
 		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"oS": 0
 		},
 	"/lib/woocommerce/js/notice-update.js": {
 		"ft": 64,
@@ -255,26 +279,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"/lib/woocommerce/uo-custom-woocommerce-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/uo-custom/lib/woocommerce/uo-custom-woocommerce-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/lib/woocommerce/uo-custom-woocommerce.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/uo-custom/lib/woocommerce/uo-custom-woocommerce-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/lib/woocommerce/woocommerce-notice.php": {
 		"cB": 0,
@@ -288,13 +292,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/uo-custom/lib/woocommerce/woocommerce-output.php",
-		"oF": 0
-		},
-	"/lib/woocommerce/woocommerce-setup.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/uo-custom/lib/woocommerce/woocommerce-setup.php",
 		"oF": 0
 		},
 	"/page_landing.php": {
@@ -346,21 +343,14 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/uo-custom/style-min.css",
+		"oAP": "/uo-custom/style.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"/uo-custom": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/uo-custom/uo-custom",
-		"oF": 0
-		},
-	"/xml/sample.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/uo-custom/xml/sample.xml",
 		"oF": 0
 		}
 	},
@@ -374,7 +364,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_teal",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 569767645.50425398
+	"lastBuiltDate": 569770577.37509894
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2146,13 +2136,13 @@
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.css",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "uo-custom",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
